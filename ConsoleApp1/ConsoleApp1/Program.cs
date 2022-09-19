@@ -1,12 +1,24 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace person
 {
-    class Program
+    class program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+
+
+
+
+            person firstPerson = new person();
+
+            firstPerson.ShowInfo();
+
+            
+
+   
         }
     }
 }
