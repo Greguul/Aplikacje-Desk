@@ -10,7 +10,7 @@ namespace person
     class person
     {
         private string name;
-        private string surname ;
+        private string surname;
         private int age;
 
 
@@ -44,5 +44,22 @@ namespace person
 
         }
 
-    }
+
+        public void Setsurname(string new_surname);
+   
+        if (Newsurname !="")
+        {
+            sruname =newSurname; 
+        }
+      else 
+    {
+      // throw new Excaption("Nazwisko zakazane");
+    {
+   }
+
+
+public string Getsurname();
+return surname;
+
+
 }
