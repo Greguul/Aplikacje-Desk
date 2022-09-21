@@ -21,13 +21,13 @@ namespace person
            secondPerson.ShowInfo(); //kopiuje wskaznik 
 
 
-            person thirdPerson = new person("Ala , Kowalska ", 18);
+            person thirdPerson = new person ("Ala , Kowalska ", 18);
             thirdPerson.ShowInfo();
 
             secondPerson = thirdPerson;
             secondPerson.ShowInfo();
 
-            thirdPerson.Setsurname("");
+            thirdPerson.Setsurname(" ");
             thirdPerson.ShowInfo();
 
             thirdPerson.Setsurname("Nowakowska");
@@ -35,6 +35,13 @@ namespace person
 
 
             string dana = thirdPerson.GetSurname();
+
+            dana = thirdPerson.surname;
+
+            //thirdPerson.Age = 50; 
+
+            int d = thirdPerson.Age; 
+
             
 
    
