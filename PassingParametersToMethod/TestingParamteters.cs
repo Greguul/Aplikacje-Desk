@@ -8,6 +8,8 @@ namespace PassingParametersToMethod
 {
     class TestingParamteters
     {
+        #region Przekazywanie typów prostych 
+
         public void Test1()
         {
             byte number = 15;
@@ -48,7 +50,24 @@ namespace PassingParametersToMethod
         {
             value = new Random().Next();
         }
+        //ref wymaga wartosci 
+        //out nie wymaga wartosci 
+        #endregion
+
+        #region Przekazywanie Typów referencyjnych 
+
+        public void test2()
+        {
+            preson preson = new Person();
+            Person.ShowInfo(); 
+        }
+        #endregion
+
+
+
     }
+
+
 
 
 }
