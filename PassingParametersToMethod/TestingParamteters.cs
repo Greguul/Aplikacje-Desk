@@ -87,7 +87,15 @@ namespace PassingParametersToMethod
 
         {
             PersonStruct ps = new PersonStruct();
-            ps.name = "Adam";
+            ps.name = "Adam" ;
+            Console.WriteLine("Pole name w test3 " + ps.name);
+        }
+
+        private void GetPersonStruct(PersonStruct ps)
+        {
+            Console.WriteLine("Pole name w GetPersonStruct" + ps.name);
+            ps.name = "Ewa";
+            Console.WriteLine("Pole name w GetPersonStruct" + ps.name);
         }
 
         #endregion
